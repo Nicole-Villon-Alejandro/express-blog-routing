@@ -8,12 +8,12 @@ router.get('/', (req, res) => {
 
 //show
 router.get('/:id', (req, res) => {
-  res.send('Qui restituiremo un solo post con id: ${req.params.id}');
+  res.send('Qui restituiremo un solo post con id: ${req.params.id}')
 });
 
 //store
 router.post('/', (req, res) => {
-  res.send('Qui restituiremo tutti i posts');
+  res.send('Qui creiamo un nuovo posts');
 });
 
 //update
